@@ -1,0 +1,26 @@
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hover-area {
+  display: inline-block;
+  position: relative;
+}
+
+.hidden-element {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(25, 140, 179);
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.hover-area:hover .hidden-element {
+  display: block;
+}
